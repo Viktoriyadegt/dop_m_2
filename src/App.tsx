@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import {Modal} from "./components/modal/Modal";
 import {SupperButton} from "./components/supperButton/SupperButton";
-
+import s from '../src/components/supperButton/SupperButton.module.css'
 
 function App() {
     return (
@@ -10,8 +9,17 @@ function App() {
             <SupperButton background={'red'}
                           onClick={() => {
                           }}
+                          className={s.redColorForButton}
                           color={'red'}>
                 Red Button
+            </SupperButton>
+
+            <SupperButton background={'blue'}
+                          onClick={() => {
+                          }}
+                          className={s.blueColorForButton}
+                          color={'blue'}>
+                Blue Button
             </SupperButton>
 
         </div>
