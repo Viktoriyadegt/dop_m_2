@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {SupperButton} from "./components/supperButton/SupperButton";
-import s from '../src/components/supperButton/SupperButton.module.css'
 
 function App() {
     return (
