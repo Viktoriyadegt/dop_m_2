@@ -6,21 +6,26 @@ import s from '../src/components/supperButton/SupperButton.module.css'
 function App() {
     return (
         <div>
-            <SupperButton background={'red'}
-                          onClick={() => {
-                          }}
-                          className={s.redColorForButton}
-                          color={'red'}>
-                Red Button
-            </SupperButton>
+            {/*<SupperButton background={'red'}*/}
+            {/*              onClick={() => {*/}
+            {/*              }}*/}
+            {/*              className={s.redColorForButton}*/}
+            {/*              color={'red'}>*/}
+            {/*    Red Button*/}
+            {/*</SupperButton>*/}
 
-            <SupperButton background={'blue'}
+            {/*<SupperButton background={'blue'}
                           onClick={() => {
                           }}
                           className={s.blueColorForButton}
                           color={'blue'}>
                 Blue Button
-            </SupperButton>
+            </SupperButton>*/}
+
+            <SupperButton color={'red'}>REd Button</SupperButton>
+            <SupperButton color={'secondary'}>Secondary Button</SupperButton>
+            <SupperButton >Default Button</SupperButton>
+            <SupperButton disabled>Disabled Button</SupperButton>
 
         </div>
     );
